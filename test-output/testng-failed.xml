@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testautomation.apitesting.test.GetAPIRequest">
+      <class name="com.testautomation.apitesting.test.PostAPIRequest">
         <methods>
-          <include name="getAllBookings"/>
+          <include name="createBooking"/>
         </methods>
-      </class> <!-- com.testautomation.apitesting.test.GetAPIRequest -->
+      </class> <!-- com.testautomation.apitesting.test.PostAPIRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

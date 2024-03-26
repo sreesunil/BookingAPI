@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-12T12:22:07 PST" name="Default suite" finished-at="2024-02-12T12:22:08 PST" duration-ms="1606">
+  <suite started-at="2024-03-12T12:29:00 PDT" name="Default suite" finished-at="2024-03-12T12:29:03 PDT" duration-ms="2480">
     <groups>
     </groups>
-    <test started-at="2024-02-12T12:22:07 PST" name="Default test" finished-at="2024-02-12T12:22:08 PST" duration-ms="1606">
-      <class name="com.testautomation.apitesting.test.GenerateToken">
-        <test-method signature="generateToken()[pri:0, instance:com.testautomation.apitesting.test.GenerateToken@21282ed8]" started-at="2024-02-12T12:22:07 PST" name="generateToken" finished-at="2024-02-12T12:22:08 PST" duration-ms="1572" status="PASS">
+    <test started-at="2024-03-12T12:29:00 PDT" name="Default test" finished-at="2024-03-12T12:29:03 PDT" duration-ms="2480">
+      <class name="interviewquestions.PathParamAndQueryParam">
+        <test-method signature="PathParamAndQueryParam()[pri:0, instance:interviewquestions.PathParamAndQueryParam@72e5a8e]" started-at="2024-03-12T12:29:00 PDT" name="PathParamAndQueryParam" finished-at="2024-03-12T12:29:03 PDT" duration-ms="2406" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- generateToken -->
-      </class> <!-- com.testautomation.apitesting.test.GenerateToken -->
+        </test-method> <!-- PathParamAndQueryParam -->
+      </class> <!-- interviewquestions.PathParamAndQueryParam -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
