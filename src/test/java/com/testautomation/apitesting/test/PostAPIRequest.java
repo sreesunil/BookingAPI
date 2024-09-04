@@ -3,6 +3,8 @@ package com.testautomation.apitesting.test;
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
+import com.testautomation.apitesting.utils.BaseTest;
+
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -12,7 +14,7 @@ import static io.restassured.module.jsv.JsonSchemaValidator.*;
 
 import java.io.File;
 
-public class PostAPIRequest {
+public class PostAPIRequest extends BaseTest {
 
 	@Test
 	public void createBooking() {
@@ -34,7 +36,7 @@ public class PostAPIRequest {
 				.given().contentType(ContentType.JSON)
 				.body(booking.toString())
 				.baseUri("https://restful-booker.herokuapp.com/booking")
-				.log().all()
+				//.log().all()
 				.when().post()
 				.then().assertThat().statusCode(200)
 				.body("booking.firstname", Matchers.equalTo("Sree"))
